@@ -1401,10 +1401,9 @@ canvas {
     transform: scale(1);
     transition: transform 7000ms ease;
     z-index: 1;
-    mix-blend-mode: luminosity;
-    opacity: .3;
+    /* mix-blend-mode: luminosity; */
+    opacity: .8;
 }
-
 
 .main-slider-shape-1 {
     position: absolute;
@@ -1446,7 +1445,7 @@ canvas {
     transform: translateY(120px);
     transition-delay: 1000ms;
     transition: transform 2000ms ease, opacity 2000ms ease;
-    font-size: 90px;
+    font-size: 60px;
     line-height: 90px;
     letter-spacing: -0.02em;
     z-index: 30;
@@ -1751,7 +1750,7 @@ canvas {
     position: relative;
     display: block;
     background-color: var(--thm-black);
-    padding: 99px 0 208px;
+    padding: 99px 0 108px;
 }
 
 .brand-one .swiper-container {
@@ -2294,7 +2293,7 @@ canvas {
 }
 
 .share-the-joy__title {
-    font-size: 50px;
+    /* font-size: 50px; */
     color: var(--thm-base);
     font-weight: 800;
     line-height: 60px;
